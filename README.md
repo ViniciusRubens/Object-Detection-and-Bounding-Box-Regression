@@ -32,10 +32,10 @@ Therefore, we have two types of predictions to be made in the final stages of th
 <br>
   <img src=https://github.com/ViniciusRubens/Object-Detection-and-Bounding-Box-Regression/blob/main/Images/transfer%20learning%20example.png alt="DEEP NEURAL NETWORK" width="600" height = "270">
 <br>
-<p align="center">
-Figure from: https://www.researchgate.net/figure/Example-of-how-transfer-learning-works-in-this-setting-the-last-layer-classification_fig6_332092821
-</p>
 </h1>
+<p align="center">
+Figure from: https://www.researchgate.net/figure/Example-of-how-transfer-learning-works-in-this-setting-the-last-layer-classification_fig6_332092821 
+</p>
 
 <p align="justify">
 In this project the RELU activation function was used in all the other layers, and only in the last layer the Softmax is used, because we are making a categorical classification, and the Softmax function is efficient for these cases. Unlike my other projects, here it was not necessary to build the activation functions or the Forward or Backward propagation process, the framework is responsible for this type of process, and it is up to the developer to build the model and process the data.
