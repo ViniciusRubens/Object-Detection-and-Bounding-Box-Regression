@@ -1,6 +1,6 @@
  <h1 align="center">
 <br>
-  <img src=https://github.com/ViniciusRubens/Object-Detection-and-Bounding-Box-Regression/blob/main/Images/Logotipo.png alt="FLOWER MULTI-LABEL CLASSIFICATION" width="200">
+  <img src=https://github.com/ViniciusRubens/Object-Detection-and-Bounding-Box-Regression/blob/main/Images/Logotipo.png alt="FLOWER MULTI-LABEL CLASSIFICATION" width="300">
 <br>
 <br>
 FLOWER MULTI-LABEL CLASSIFICATION WITH TENSORFLOW
