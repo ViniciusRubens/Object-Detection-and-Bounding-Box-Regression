@@ -67,6 +67,9 @@ The programming language used was Python 3 in Jupyter environment, using the lib
 - 📁 [Os](https://docs.python.org/3/library/os.html) — Library used to browse directories from our PC.
 - 📁 [random](https://docs.python.org/3/library/random.html) — Library used to generate pseudo-random numbers.
 - 📁 [OpenCV](https://opencv.org/) — Library used to modify and load our images.
+- 📁 [imutils](https://pypi.org/project/imutils/) — Library used to modify our images.
+- 📁 [pathlib](https://docs.python.org/3/library/pathlib.html) — Library used to flow from directories.
+- 📁 [Scikit-learn](https://scikit-learn.org/stable/user_guide.html) — Library used to preprocessing our data.
 
 ## Getting started
 
@@ -97,6 +100,14 @@ If you are having problems during installation, a good alternative is to check y
 👉 By default the Os library is a package already installed together with the Python installation.
 
 👉 By default the random library is a package already installed together with the Python installation.
+
+👉 By default the imutils library is a package already installed together with the Python installation.
+
+👉 By default the pathlib library is a package already installed together with the Python installation.
+
+👉 To install the Scikit-Learn library, the process is similar. By Command Prompt we will do:
+
+`pip install scikit-learn`
 
 👉 Finally, the OpenCV library can be installed through the following command in the Command Prompt:
 
