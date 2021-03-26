@@ -7,11 +7,11 @@ MULTI-CLASS OBJECT DETECTION AND BOUNDING BOX REGRESSION WITH KERAS, TENSORFLOW,
 </h1>
 
 <p align="justify">
-My project is based on the development of a machine learning using the concepts of Convolutional Neural Network with TensorFlow Framework.
+My project is based on the development of a machine learning using the concepts of Convolutional Neural Network and object detection with TensorFlow Framework and Kareas API.
 
 In Deep Learning, certain layers are responsible for certain recognition patterns, such as edges, textures, and so on. 
 
-The concept of Convolutional Netowork is based on this concept in the analysis of our supposed image, and with the values of pixels present in this image, we will use filters, also called Kernel, which will perform Convolutional operations to obtain other values in a smaller matrix, and thus recognize the patterns needed for each layer. 
+The idea of Convolutional Netowork is based on this concept in the analysis of our supposed image, and with the values of pixels present in this image, we will use filters, also called Kernel, which will perform Convolutional operations to obtain other values in a smaller matrix, and thus recognize the patterns needed for each layer. 
 </p>
 
 <h1 align="center">
@@ -21,7 +21,11 @@ The concept of Convolutional Netowork is based on this concept in the analysis o
 </h1>
 
 <p align="justify">
-In CONV Nets projects it is very common to use POOL layers, called Pooling Layers, used as a way to accelerate our calculations and make some features more robust. In this project, we use MaxPooling Layers in each layer with convolutional operations except in Dense layers at the end of our CNN.
+However, for the development of this project, the Transfer Learning technique was used. We downloaded the pre-trained parameters of the VGG 16 Classic Neural Network with the ImageNet Database, and removed the one-dimensional layers at the end, to add the convenient layers for the predictions of our model.
+
+Furthermore, in this project we also perform the detection of the object to be categorized by drawing a rectangle from the bounding box.
+
+Therefore, we have two types of predictions to be made in the final stages of the model, the class predictions and the Bounding Boxes predictions.
 </P>
 
 <h1 align="center">
