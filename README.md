@@ -32,6 +32,9 @@ Therefore, we have two types of predictions to be made in the final stages of th
 <br>
   <img src=https://github.com/ViniciusRubens/Object-Detection-and-Bounding-Box-Regression/blob/main/Images/transfer%20learning%20example.png alt="DEEP NEURAL NETWORK" width="600" height = "270">
 <br>
+<p align="center">
+Figure from: https://www.researchgate.net/figure/Example-of-how-transfer-learning-works-in-this-setting-the-last-layer-classification_fig6_332092821
+</p>
 </h1>
 
 <p align="justify">
