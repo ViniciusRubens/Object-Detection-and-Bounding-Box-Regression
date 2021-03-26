@@ -38,13 +38,13 @@ Figure from: https://www.researchgate.net/figure/Example-of-how-transfer-learnin
 </p>
 
 <p align="justify">
-In this project the RELU activation function was used in all the other layers, and only in the last layer the Softmax is used, because we are making a categorical classification, and the Softmax function is efficient for these cases. Unlike my other projects, here it was not necessary to build the activation functions or the Forward or Backward propagation process, the framework is responsible for this type of process, and it is up to the developer to build the model and process the data.
+In this project the RELU activation function was used in all the other layers of bounding box regression, and only in the last layer the Sigmoid is used to ensure our output predicted values are in the range [0, 1]. Unlike my other projects, here it was not necessary to build the activation functions or the Forward or Backward propagation process, the framework is responsible for this type of process because VGG 16, and it is up to the developer to build the model and process the data.
 
-Still in the last layers, we observe a Flatten operation to modify our matrix, with the purpose of creating the Fully Connected Layers determined by the Dense operation, which will help in the transfer of parameters for pattern recognition. 
+Still in the last steps, we observe a Softmax operation because we are making a categorical classification, and the Softmax function is efficient for these cases.
 </p>
 
 <p align="justify">
-Moreover, it is important to note that this project is a CNN model for study and knowledge of how machine learning works for simple situations. Even using frameworks the result will depend on how you design your Convolutional Neural Network, always watching Overfiting or Underfiting and studying how to improve your results.
+Moreover, it is important to note that this project is a CNN model and Object Detection for study and knowledge of how machine learning works for simple situations. Even using frameworks the result will depend on how you design your Convolutional Neural Network, always watching Overfiting or Underfiting and studying how to improve your results.
 
 Thanks, and enjoy.
 
