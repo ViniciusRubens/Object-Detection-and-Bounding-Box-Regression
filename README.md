@@ -30,7 +30,7 @@ Therefore, we have two types of predictions to be made in the final stages of th
 
 <h1 align="center">
 <br>
-  <img src=https://github.com/ViniciusRubens/Object-Detection-and-Bounding-Box-Regression/blob/main/Images/transfer%20learning%20example.png alt="DEEP NEURAL NETWORK" width="4000" height = "270">
+  <img src=https://github.com/ViniciusRubens/Object-Detection-and-Bounding-Box-Regression/blob/main/Images/transfer%20learning%20example.png alt="DEEP NEURAL NETWORK" width="2000" height = "270">
 <br>
 </h1>
 
