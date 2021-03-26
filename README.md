@@ -3,7 +3,7 @@
   <img src=https://github.com/ViniciusRubens/Object-Detection-and-Bounding-Box-Regression/blob/main/Images/Logotipo.png alt="FLOWER MULTI-LABEL CLASSIFICATION" width="300">
 <br>
 <br>
-FLOWER MULTI-LABEL CLASSIFICATION WITH TENSORFLOW
+MULTI-CLASS OBJECT DETECTION AND BOUNDING BOX REGRESSION WITH KERAS, TENSORFLOW, AND DEEP LEARNING
 </h1>
 
 <p align="justify">
